@@ -1,8 +1,4 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
----
 title: "Myanmar'daki Süpermarket Müşterilerinin Puanlamaları Üzerine Tahmin"
 author: 
   - Mert Can Özer[^1]
@@ -51,7 +47,7 @@ Myanmar'da 2019 yılında 3 büyük şehirde gerçekleştirilmiş olan market al
 ## Literatür 
 Literatür taraması sonucunda müşteri memnuniyetini etkileyen çeşitli faktörlerin ele alındığı çalışmalara çokça rastlanılmasına karşın; konu Myanmar özeline geldiğinde çalışmaların sıklığı fazlasıyla seyreliyor. Çalışma kapsamında çeşitli dergilerden , makalelerden ve raporlardan yararlanılmıştır.
 
-(@Singh:1998) ve (@Brady) çalışmalarında müşteri odaklı politikaların pozitif yanlarını ele almıştır. (@Eskiler) ise müşterilerin satın alma eğilimlerinin müşteri memnuniyetiyle olan ilişkisini açıklamıştır.
+(@appiah1998customer) ve (@brady2001customer) çalışmalarında müşteri odaklı politikaların pozitif yanlarını ele almıştır. (@eskiler2015algilanan) ise müşterilerin satın alma eğilimlerinin müşteri memnuniyetiyle olan ilişkisini açıklamıştır.
 
 \newpage
 # Kaynakça {#references}
