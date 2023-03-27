@@ -1,0 +1,59 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+title: "Myanmar'daki Süpermarket Müşterilerinin Puanlamaları Üzerine Tahmin"
+author: 
+  - Mert Can Özer[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]:19080238
+
+# Giriş
+Myanmar Birliği Cumhuriyeti veya diğer bilinen adlarıyla Myanmar, Burma, Birmanya Güneydoğu Asya'da bir ülkedir.55 milyona yakın nüfusu ile Güneydoğu Asya anakarasındakien büyük ülke olan Myanmar, 1 milyonu aşkın 3, toplamda 78 şehre sahiptir (@Wikipedia). Kökeni 9. yüzyıla kadar dayanan bu ülke gerek konumu gerekse üzerinde uzun yıllar boyunca uygulanan stratejiler sayesinde birçok alanda kendi adından bahsettirmiştir. 
+
+2.Dünya Savaşı sonuna kadar İngiliz sömürgesiolarak Birmanya adıyla tarih sahnesinde yer alan Myanmar 1948'de sömürgeden çıkarak pek çok alanda olduğu gibi ekonomik özgürlüğünü de kazanmış oldu (@Wikipedia). İç karışıklıkların çok sık olduğu ülkede gerçekleşen çalkantılar günümüzde bile halen bir ekonomik istikrar yakalayamamasının en büyük sebeplerinden birisidir.
+
+Myanmar, etnik çeşitliliği yüksek olan bir bölge olması sebebiyle her alanda yönelimlerin de çeşitlilik kazanması durumu söz konusudur. Bu çalışmada Myanmar'ın en büyük 3 şehri olan Naypitaw (Nepido), Mandalay ve Yangon'da bulunan alışveriş merkezi ve buradaki müşterilerin değerlendirmeleri üzerine hazırlanmış veri seti üzerine çalışılmıştır.Bahsi geçen 3 şehirdeki müşteriler, 2019 yılında çeşitli değişkenler ışığında incelenerek ortaya 1000 gözleem konulmuştur.
+
+## Çalışmanın Amacı
+Myanmar'da 2019 yılında 3 büyük şehirde gerçekleştirilmiş olan market alışverişleri ve müşteri puanlamaları incelenerek 2020-2021 yılları puanlamaları öngörülecektir. Bu çalışmadan elde edilen bulguların, Myanmar'daki müşterilerin eğilimlerine göre süpermarketlerin satış politikalarına yardımcı olacağı düşünülmektedir. Ek olarak nüfusa ve bulunan coğrafi konumlara göre göz önünde bulundurulabilecek bilgilere de yer verilecektir.
+
+## Literatür 
+Literatür taraması sonucunda müşteri memnuniyetini etkileyen çeşitli faktörlerin ele alındığı çalışmalara çokça rastlanılmasına karşın; konu Myanmar özeline geldiğinde çalışmaların sıklığı fazlasıyla seyreliyor. Çalışma kapsamında çeşitli dergilerden , makalelerden ve raporlardan yararlanılmıştır.
+
+(@Singh:1998) ve (@Brady) çalışmalarında müşteri odaklı politikaların pozitif yanlarını ele almıştır. (@Eskiler) ise müşterilerin satın alma eğilimlerinin müşteri memnuniyetiyle olan ilişkisini açıklamıştır.
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+

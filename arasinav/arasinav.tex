@@ -1,0 +1,177 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+title: ``Myanmar'daki Süpermarket Müşterilerinin Puanlamaları Üzerine
+Tahmin'' author: - Mert Can Özer\footnote{19080238} bibliography:
+../bibliography/biblio.bib csl: ../csl/apa-tr.csl header-includes: -
+
+\usepackage{polyglossia}
+
+\begin{itemize}
+\item
+  \setmainlanguage{turkish}
+
+  \begin{itemize}
+  \item
+    \usepackage{booktabs}
+  \item
+    \usepackage{caption}
+  \item
+    \captionsetup[table]{skip=10pt}
+
+    output: bookdown::pdf\_document2: fig\_caption: yes fig\_height: 3
+    fig\_width: 4 keep\_tex: no latex\_engine: xelatex number\_sections:
+    yes toc: no geometry: margin=1in link-citations: yes urlcolor: blue
+    fontsize: 12pt biblio-style: apalike ---
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{giriux15f}{%
+\section{Giriş}\label{giriux15f}}
+
+Myanmar Birliği Cumhuriyeti veya diğer bilinen adlarıyla Myanmar, Burma,
+Birmanya Güneydoğu Asya'da bir ülkedir.55 milyona yakın nüfusu ile
+Güneydoğu Asya anakarasındakien büyük ülke olan Myanmar, 1 milyonu aşkın
+3, toplamda 78 şehre sahiptir (@Wikipedia). Kökeni 9. yüzyıla kadar
+dayanan bu ülke gerek konumu gerekse üzerinde uzun yıllar boyunca
+uygulanan stratejiler sayesinde birçok alanda kendi adından
+bahsettirmiştir.
+
+2.Dünya Savaşı sonuna kadar İngiliz sömürgesiolarak Birmanya adıyla
+tarih sahnesinde yer alan Myanmar 1948'de sömürgeden çıkarak pek çok
+alanda olduğu gibi ekonomik özgürlüğünü de kazanmış oldu (@Wikipedia).
+İç karışıklıkların çok sık olduğu ülkede gerçekleşen çalkantılar
+günümüzde bile halen bir ekonomik istikrar yakalayamamasının en büyük
+sebeplerinden birisidir.
+
+Myanmar, etnik çeşitliliği yüksek olan bir bölge olması sebebiyle her
+alanda yönelimlerin de çeşitlilik kazanması durumu söz konusudur. Bu
+çalışmada Myanmar'ın en büyük 3 şehri olan Naypitaw (Nepido), Mandalay
+ve Yangon'da bulunan alışveriş merkezi ve buradaki müşterilerin
+değerlendirmeleri üzerine hazırlanmış veri seti üzerine
+çalışılmıştır.Bahsi geçen 3 şehirdeki müşteriler, 2019 yılında çeşitli
+değişkenler ışığında incelenerek ortaya 1000 gözleem konulmuştur.
+
+\hypertarget{uxe7alux131ux15fmanux131n-amacux131}{%
+\subsection{Çalışmanın
+Amacı}\label{uxe7alux131ux15fmanux131n-amacux131}}
+
+Myanmar'da 2019 yılında 3 büyük şehirde gerçekleştirilmiş olan market
+alışverişleri ve müşteri puanlamaları incelenerek 2020-2021 yılları
+puanlamaları öngörülecektir. Bu çalışmadan elde edilen bulguların,
+Myanmar'daki müşterilerin eğilimlerine göre süpermarketlerin satış
+politikalarına yardımcı olacağı düşünülmektedir. Ek olarak nüfusa ve
+bulunan coğrafi konumlara göre göz önünde bulundurulabilecek bilgilere
+de yer verilecektir.
+
+\hypertarget{literatuxfcr}{%
+\subsection{Literatür}\label{literatuxfcr}}
+
+Literatür taraması sonucunda müşteri memnuniyetini etkileyen çeşitli
+faktörlerin ele alındığı çalışmalara çokça rastlanılmasına karşın; konu
+Myanmar özeline geldiğinde çalışmaların sıklığı fazlasıyla seyreliyor.
+Çalışma kapsamında çeşitli dergilerden , makalelerden ve raporlardan
+yararlanılmıştır.
+
+(@Singh:1998) ve (@Brady) çalışmalarında müşteri odaklı politikaların
+pozitif yanlarını ele almıştır. (@Eskiler) ise müşterilerin satın alma
+eğilimlerinin müşteri memnuniyetiyle olan ilişkisini açıklamıştır.
+
+\newpage
+
+\hypertarget{references}{%
+\section{Kaynakça}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\end{CSLReferences}
+
+\end{document}
