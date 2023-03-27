@@ -35,9 +35,9 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 [^1]:19080238
 
 # Giriş
-Myanmar Birliği Cumhuriyeti veya diğer bilinen adlarıyla Myanmar, Burma, Birmanya Güneydoğu Asya'da bir ülkedir.55 milyona yakın nüfusu ile Güneydoğu Asya anakarasındakien büyük ülke olan Myanmar, 1 milyonu aşkın 3, toplamda 78 şehre sahiptir (@Wikipedia). Kökeni 9. yüzyıla kadar dayanan bu ülke gerek konumu gerekse üzerinde uzun yıllar boyunca uygulanan stratejiler sayesinde birçok alanda kendi adından bahsettirmiştir. 
+Myanmar Birliği Cumhuriyeti veya diğer bilinen adlarıyla Myanmar, Burma, Birmanya Güneydoğu Asya'da bir ülkedir.55 milyona yakın nüfusu ile Güneydoğu Asya anakarasındakien büyük ülke olan Myanmar, 1 milyonu aşkın 3, toplamda 78 şehre sahiptir. Kökeni 9. yüzyıla kadar dayanan bu ülke gerek konumu gerekse üzerinde uzun yıllar boyunca uygulanan stratejiler sayesinde birçok alanda kendi adından bahsettirmiştir. 
 
-2.Dünya Savaşı sonuna kadar İngiliz sömürgesiolarak Birmanya adıyla tarih sahnesinde yer alan Myanmar 1948'de sömürgeden çıkarak pek çok alanda olduğu gibi ekonomik özgürlüğünü de kazanmış oldu (@Wikipedia). İç karışıklıkların çok sık olduğu ülkede gerçekleşen çalkantılar günümüzde bile halen bir ekonomik istikrar yakalayamamasının en büyük sebeplerinden birisidir.
+2.Dünya Savaşı sonuna kadar İngiliz sömürgesiolarak Birmanya adıyla tarih sahnesinde yer alan Myanmar 1948'de sömürgeden çıkarak pek çok alanda olduğu gibi ekonomik özgürlüğünü de kazanmış oldu. İç karışıklıkların çok sık olduğu ülkede gerçekleşen çalkantılar günümüzde bile halen bir ekonomik istikrar yakalayamamasının en büyük sebeplerinden birisidir.
 
 Myanmar, etnik çeşitliliği yüksek olan bir bölge olması sebebiyle her alanda yönelimlerin de çeşitlilik kazanması durumu söz konusudur. Bu çalışmada Myanmar'ın en büyük 3 şehri olan Naypitaw (Nepido), Mandalay ve Yangon'da bulunan alışveriş merkezi ve buradaki müşterilerin değerlendirmeleri üzerine hazırlanmış veri seti üzerine çalışılmıştır.Bahsi geçen 3 şehirdeki müşteriler, 2019 yılında çeşitli değişkenler ışığında incelenerek ortaya 1000 gözleem konulmuştur.
 
